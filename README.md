@@ -30,3 +30,4 @@ Create a delightful careers page that summarizes life at Skillshare and links to
 
 ## Current State:
 ![Screenshot of careers page](images/current-careers-page.png)
+<https://www.skillshare.com/careers>
