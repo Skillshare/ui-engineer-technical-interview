@@ -26,3 +26,7 @@ Create a delightful careers page that summarizes life at Skillshare and links to
 * <https://www.flaticon.com/>
 * <https://icons8.com/icons>
 * <https://www.vecteezy.com/free-vector/icons>
+
+
+## Current State:
+![Screenshot of careers page](images/current-careers-page.png)
