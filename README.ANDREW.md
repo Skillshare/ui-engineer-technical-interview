@@ -48,4 +48,5 @@ Other items I spent time on was color-blocking to help the eye navigate differen
 - The action button could be duplicated or differentiated at the bottom of the page, as the user may have read all the benefits and then decided to view open positions; we shouldn't make them scroll to the top of the page to find that link.
 - Vertical rhythm. Not horrible, but not great in this version. A more thoughtful approach to spacing would make this feel overall better.
 - The CSS got a little gnarly. I was reminded how nice it is to work in modules and scope CSS.
+- Responsive sizing. This design was done very quickly (Macbook Pro screen) and not optimized for larger or smaller displays.
 - A more ambitious design. This wasn't that far out of the box, but given a couple of hours, I felt this approach would be the most achievable.
