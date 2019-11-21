@@ -1,0 +1,125 @@
+@use "./normalize/normalize";
+@use "./modules/button";
+@use "./modules/headerfooter";
+@use "./modules/benefits";
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/proxima-nova-regular-webfont.eot");
+  src: url("../fonts/proxima-nova-regular-webfont.woff") format("woff"),
+  url("../fonts/proxima-nova-regular-webfont.ttf")  format("truetype"),
+  url("../fonts/proxima-nova-regular-webfont.svg#svgFontName") format("svg");
+}
+
+html,
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(57, 59, 65);
+  font-family: "Proxima Nova", "Arial", sans-serif;
+  width: 100%;
+}
+
+body {
+  max-width: 100%;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.page-title {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.hero {
+  background-image: url("../../img/space.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  line-height: 92vh;
+  overflow: hidden;
+}
+
+section {
+  & > *:first-child {
+    margin: 0 auto;
+    max-width: 980px;
+  }
+
+  & > .top-section {
+    margin: 2rem auto;
+  }
+}
+
+.career-section {
+  h2 {
+    font-weight: 400;
+    letter-spacing: -.5px;
+  }
+
+  p {
+    font-size: 1.125rem;
+    line-height: 1.4em;
+
+    &.action-item {
+      margin: 0;
+      text-align: center;
+    }
+  }
+}
+
+.mission-statement {
+  background-color: rgb(238, 238, 238);
+  border-radius: .25rem;
+  flex: 0 0 35%;
+  padding: 1rem 1.5rem;
+
+  p:first-child {
+    font-size: 1.2rem;
+  }
+}
+
+.work-with-us {
+  margin-left: 2rem;
+}
+
+.collage {
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+
+  .slides {
+    left: 0;
+    position: relative;
+    top: 0;
+  }
+
+  img {
+    border-radius: .3rem;
+    flex: 1 1 auto;
+    margin: 0 .25rem;
+    max-width: 22%;
+    transition: all .05s;
+  }
+}
+
+.pullquote {
+  background-color: rgb(23, 197, 203);
+  background: linear-gradient(135deg, #17c5cb 0%,#16b4ba 100%);
+  color: rgb(255, 255, 255);
+  font-family: "Palatino", serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  padding: 4rem;
+
+  .author {
+    text-align: right;
+  }
+}

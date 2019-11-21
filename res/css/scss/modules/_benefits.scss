@@ -1,0 +1,69 @@
+.benefits {
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 2rem 0;
+  padding: 0;
+  text-align: left;
+}
+
+.benefit-item {
+  background-color: transparent;
+  background-position: .9rem 0;
+  background-repeat: no-repeat;
+  background-size: 35px;
+  display: inline-block;
+  flex: 0 0 30%;
+  margin: 2.5% 1.5%;
+  padding: 1.5rem 1rem 1rem;
+
+  h3 {
+    margin-bottom: .5rem;
+  }
+
+  span {
+    display: block;
+    line-height: 1.4em;
+  }
+}
+
+.benefit-401k {
+  background-image: url("../../img/icon/icon-401k.png");
+}
+
+.benefit-happy-hour {
+  background-image: url("../../img/icon/icon-happy-hour.png");
+}
+
+.benefit-learning {
+  background-image: url("../../img/icon/icon-learning.png");
+}
+
+.benefit-lunch {
+  background-image: url("../../img/icon/icon-lunch.png");
+}
+
+.benefit-offsite {
+  background-image: url("../../img/icon/icon-offsite.png");
+}
+
+.benefit-salary {
+  background-image: url("../../img/icon/icon-salary.png");
+}
+
+.benefit-stocks {
+  background-image: url("../../img/icon/icon-stocks.png");
+}
+
+.benefit-tuesday {
+  background-image: url("../../img/icon/icon-tuesday.png");
+}
+
+.benefit-vacation {
+  background-image: url("../../img/icon/icon-vacation.png");
+}
+
+section p.benefit-more {
+  font-size: 1.325rem;
+  margin: 3rem auto 4rem;
+  text-align: center;
+}
